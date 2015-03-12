@@ -1,0 +1,161 @@
+.nonworking {
+	background-color:#fff;
+	color:#000;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	font-size:10pt;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	padding:5px;
+}
+div#ienotice {
+	background-color:#7E98AF;
+	color:#000;
+	font-size:0.85em;
+	padding:3px 5px;
+	text-align:center;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	display:none;
+}
+div#ienotice a {
+	color:black;
+}
+div#oldienotice {
+	display:none;
+}
+div#status {
+	font-weight:bolder;
+	color:green;
+}
+div#status.errorMessage, .errorMessage {
+	background-color:#FF7979 !important;
+	color:#FF0;
+    padding:10px;
+}
+div#zb {
+	padding:10px;
+	border:1px solid #fff1a8;
+}
+div#pasteresult {
+	position:relative;
+	background-color:#fff1a8;
+	border-color:red;
+	padding:4px 12px;
+	clear:both;
+	top:-400px;
+}
+div#pasteresult button.zbButton {
+	margin-left:11px 
+}
+div#deletelink {
+	float:right;
+}
+div#cleartext {
+	position:relative;
+	top:-380px;
+	border:1px solid #aaa;
+	padding:10px;
+}
+div#toolbar, div#status { margin-bottom:5px; }
+#copyhint { color: #666; font-size:8pt; }
+button.zbButton, .button.zbButton, div#expiration {
+	color:#fff;
+	background-color:#323B47;
+	background-repeat:no-repeat;
+	background-position:center left;
+	padding:4px 8px;
+	font-size:1em;
+	margin-right:5px;
+	display:inline;
+	background-image: linear-gradient(bottom, #323B47 0%, #51606E 100%);
+	background-image: -o-linear-gradient(bottom, #323B47 0%, #51606E 100%);
+	background-image: -moz-linear-gradient(bottom, #323B47 0%, #51606E 100%);
+	background-image: -webkit-linear-gradient(bottom, #323B47 0%, #51606E 100%);
+	background-image: -ms-linear-gradient(bottom, #323B47 0%, #51606E 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #323B47), color-stop(1, #51606E));
+	border: 1px solid #28343F;
+	-moz-box-shadow: inset 0px 1px 2px #647384;
+	-webkit-box-shadow: inset 0px 1px 2px #647384;
+	box-shadow: inset 0px 1px 2px #647384;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+button.zbButton:hover  { 
+	background-image: linear-gradient(bottom, #424B57 0%, #61707E 100%);
+	background-image: -o-linear-gradient(bottom, #424B57 0%, #61707E 100%);
+	background-image: -moz-linear-gradient(bottom, #424B57 0%, #61707E 100%);
+	background-image: -webkit-linear-gradient(bottom, #424B57 0%, #61707E 100%);
+	background-image: -ms-linear-gradient(bottom, #424B57 0%, #61707E 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #424B57), color-stop(1, #61707E));
+}
+button.zbButton:active {
+	background-image: linear-gradient(bottom, #51606E 0%, #323B47 100%);
+	background-image: -o-linear-gradient(bottom, #51606E 0%, #323B47 100%);
+	background-image: -moz-linear-gradient(bottom, #51606E 0%, #323B47 100%);
+	background-image: -webkit-linear-gradient(bottom, #51606E 0%, #323B47 100%);
+	background-image: -ms-linear-gradient(bottom, #51606E 0%, #323B47 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #51606E), color-stop(1, #323B47));
+	position:relative;
+	top:1px;
+}
+button.zbButton:disabled, .buttondisabled {
+	background:#ccc;
+	color:#888;
+	top:0px;
+}
+button.zbButton img {
+	margin-right:8px;
+	position:relative;
+	top:2px;
+}
+div#expiration, div#rawtextbutton, div#burnafterreadingoption, div#opendisc, div#syntaxcoloringoption { 
+	background-color:#414D5A; 
+	padding:6px 8px;
+	margin:0px 5px 0px 0px;;
+	position: relative;
+	bottom:1px; /* WTF ? Why is this shifted by 1 pixel ? */
+}
+div#expiration select {
+	color:#eee;
+	background: transparent;
+	border: none;
+}
+div#expiration select option {
+	color:#eee;
+	background: #414D5A;
+	background-color:#414D5A;
+}
+div#remainingtime {
+	color: #94a3b4; 
+	display:inline;
+	font-size:0.85em;
+}
+.foryoureyesonly {
+	color: yellow !important;
+	font-size: 1em !important;
+	font-weight:bold !important;
+}
+button.zbButton#newbutton { float:right; margin-right:0px;margin-bottom:5px; display:inline; }
+div#aboutbox {
+	display: none;
+}
+div#infoZB {
+	cursor:pointer;
+    display:inline-block;
+}
+div#infoZB:hover div#aboutbox {
+	display:block;
+	position:absolute;
+	top:0;
+	left:180px;
+	width:400px;
+	background-color: #fff1a8;
+	border:1px solid #e6db55;
+	padding:10px;
+}

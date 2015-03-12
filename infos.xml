@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<title><![CDATA[cryptMyPluxml]]></title>
+	<author><![CDATA[Seb Sauvage (scripts) / Cyril Maguire (plugin)]]></author>
+	<version>1.1</version>
+	<date>21/05/2014</date>
+	<site>http://sebsauvage.net/wiki/doku.php?id=php:zerobin</site>
+	<description><![CDATA[Plugin permettant de partager des données confidentielles à la manière de ZeroBin. Les données sont encryptées/décryptées par le navigateur en utilisant le protocole AES de 256 bits. Plus d'informations sur la page du projet (http://sebsauvage.net/wiki/doku.php?id=php:zerobin)]]></description>
+	<requirements></requirements>
+</document>
